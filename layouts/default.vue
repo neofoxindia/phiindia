@@ -1,62 +1,58 @@
 <template>
-  <div>
+  <div class="wrapper">
+    <BaseHeader />
     <Nuxt />
+    <ContactUs />
+    <BaseFooter />
   </div>
 </template>
 
-<style>
-html {
-  font-family:
-    'Source Sans Pro',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    'Helvetica Neue',
-    Arial,
-    sans-serif;
-  font-size: 16px;
-  word-spacing: 1px;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  box-sizing: border-box;
-}
+<script>
+import BaseHeader from '~/components/BaseHeader'
+import BaseFooter from '~/components/BaseFooter'
+import ContactUs from '~/components/ContactUs'
 
+export default {
+  components: {
+    BaseHeader,
+    BaseFooter,
+    ContactUs
+  }
+}
+</script>
+
+<style>
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
-  margin: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
+</style>
 
-.button--green {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #3b8070;
-  color: #3b8070;
-  text-decoration: none;
-  padding: 10px 30px;
-}
+<style lang="scss">
+$fa-font-path: "~/assets/webfonts/";
+$primary-font: 'Open Sans', sans-serif;
+$secondary-font: 'Poppins', sans-serif;
 
-.button--green:hover {
-  color: #fff;
-  background-color: #3b8070;
-}
+$basic-size: 16px;
+$sec-spacing: 140px 0;
+$sec-spacing2: 155px 0;
 
-.button--grey {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #35495e;
-  color: #35495e;
-  text-decoration: none;
-  padding: 10px 30px;
-  margin-left: 15px;
-}
+$para-color: #5D6978;
+$primary-color: #e63946;
+$heading-color: #2F3237;
+$bg-color: #22262F;
 
-.button--grey:hover {
-  color: #fff;
-  background-color: #35495e;
-}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import '~@fortawesome/fontawesome-free/scss/fontawesome.scss';
+
+@import '~@fortawesome/fontawesome-free/scss/regular.scss';
+@import '~@fortawesome/fontawesome-free/scss/solid.scss';
+@import '~@fortawesome/fontawesome-free/scss/brands.scss';
+
+@import "~bootstrap";
+@import "assets/scss/main";
 </style>

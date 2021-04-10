@@ -1,8 +1,6 @@
 export default {
-  // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
-
-  // Global page headers: https://go.nuxtjs.dev/config-head
+  ssr: false,
   head: {
     title: 'phiindia',
     htmlAttrs: {
@@ -10,43 +8,45 @@ export default {
     },
     meta: [
       { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' }
+      {
+        name: 'viewport',
+        content: 'width=device-width, initial-scale=1'
+      },
+      {
+        hid: 'description',
+        name: 'description',
+        content: ''
+      }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      {
+        rel: 'icon',
+        type: 'image/x-icon',
+        href: '/favicon.ico'
+      }
+    ],
+    script: [
+      { type: 'text/javascript', src: '/js/jquery.js' },
+      { type: 'text/javascript', src: '/js/bootstrap.min.js' },
+      { type: 'text/javascript', src: '/js/isotope.js' },
+      { type: 'text/javascript', src: '/js/html5lightbox.js' },
+      { type: 'text/javascript', src: '/js/slick.min.js' },
+      { type: 'text/javascript', src: '/js/tweenMax.js' },
+      { type: 'text/javascript', src: '/js/wow.min.js' },
+      { type: 'text/javascript', src: '/js/scripts.js' }
     ]
   },
 
-  // Global CSS: https://go.nuxtjs.dev/config-css
-  css: [
-  ],
-
-  // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [
-  ],
-
-  // Auto import components: https://go.nuxtjs.dev/config-components
+  css: [],
+  plugins: [],
   components: true,
-
-  // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
-    // https://go.nuxtjs.dev/eslint
     '@nuxtjs/eslint-module'
   ],
-
-  // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
-    // https://go.nuxtjs.dev/bootstrap
     'bootstrap-vue/nuxt',
-    // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios'
   ],
-
-  // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {},
-
-  // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {
-  }
+  build: {}
 }
