@@ -26,14 +26,38 @@ export default {
       }
     ],
     script: [
-      { type: 'text/javascript', src: '/js/jquery.js' },
-      { type: 'text/javascript', src: '/js/bootstrap.min.js' },
-      { type: 'text/javascript', src: '/js/isotope.js' },
-      { type: 'text/javascript', src: '/js/html5lightbox.js' },
-      { type: 'text/javascript', src: '/js/slick.min.js' },
-      { type: 'text/javascript', src: '/js/tweenMax.js' },
-      { type: 'text/javascript', src: '/js/wow.min.js' },
-      { type: 'text/javascript', src: '/js/scripts.js' }
+      {
+        type: 'text/javascript',
+        src: '/js/jquery.js'
+      },
+      {
+        type: 'text/javascript',
+        src: '/js/bootstrap.min.js'
+      },
+      {
+        type: 'text/javascript',
+        src: '/js/isotope.js'
+      },
+      {
+        type: 'text/javascript',
+        src: '/js/html5lightbox.js'
+      },
+      {
+        type: 'text/javascript',
+        src: '/js/slick.min.js'
+      },
+      {
+        type: 'text/javascript',
+        src: '/js/tweenMax.js'
+      },
+      {
+        type: 'text/javascript',
+        src: '/js/wow.min.js'
+      },
+      {
+        type: 'text/javascript',
+        src: '/js/scripts.js'
+      }
     ]
   },
 
@@ -48,5 +72,9 @@ export default {
     '@nuxtjs/axios'
   ],
   axios: {},
-  build: {}
+  build: {},
+  router: {
+    linkActiveClass: '',
+    linkExactActiveClass: 'active'
+  }
 }

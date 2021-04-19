@@ -353,6 +353,8 @@ header .navigation-bar nav ul li a:before {
     visibility: hidden;
     transition: all 0.4s ease-in-out;
 }
+
+
 header .navigation-bar nav ul li a.active:before,
 header .navigation-bar nav ul li a:hover:before {
     opacity: 1;

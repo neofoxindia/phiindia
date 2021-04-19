@@ -2,10 +2,16 @@
   <div class="main-section">
     <header>
       <div class="container">
-        <div class="header-content d-flex flex-wrap align-items-center">
+        <div class="header-content d-flex flex-wrap align-items-center p-2">
           <div class="logo">
-            <NuxtLink :to="{name: 'index'}" title="">
-              PHI INDIA
+            <NuxtLink :to="{name: 'index'}" class="d-flex align-items-end" title="">
+              <img
+                height="421"
+                width="370"
+                style="width: 50px"
+                src="/images/logo.png"
+                alt="Phi India Logo"
+              >
             </NuxtLink>
           </div><!--logo end-->
           <ul class="contact-add d-flex flex-wrap">
@@ -45,10 +51,14 @@
             </a>
           </div><!--menu-btn end-->
         </div><!--header-content end-->
-        <div class="navigation-bar d-flex flex-wrap align-items-center">
+        <div class="navigation-bar d-flex flex-wrap align-items-center p-3">
           <nav>
             <ul>
-              <li><a class="active" href="index.html" title="">Home</a></li>
+              <li>
+                <NuxtLink :to="{name: 'index'}" title="">
+                  Home
+                </NuxtLink>
+              </li>
               <li>
                 <a href="about.html" title="">About</a>
               </li>
@@ -64,7 +74,11 @@
               <li>
                 <a href="blog.html" title="">Blog</a>
               </li>
-              <li><a href="contacts.html" title="">Contacts</a></li>
+              <li>
+                <NuxtLink :to="{name: 'contact'}" title="">
+                  Contacts
+                </NuxtLink>
+              </li>
             </ul>
           </nav><!--nav end-->
           <ul class="social-links ml-auto">
