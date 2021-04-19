@@ -1,0 +1,89 @@
+{
+  "courses": [
+    {
+      "name": "6-10 (Maths / Science)",
+      "slug": "6_to_10_math_and_science",
+      "price": 20000,
+      "type": "full"
+    },
+    {
+      "name": "12 (PCM / PCB)",
+      "price": 10000,
+      "slug": "12_PCM_and_PCB",
+      "type": "subject"
+    },
+    {
+      "name": "B.Sc / BCA / B.Tech /",
+      "price": 10000,
+      "slug": "BSC_BCA_BTEC",
+      "type": "subject"
+    },
+    {
+      "name": "MCA / M. Tech (ECE/ IT / CS / EE)",
+      "price": 10000,
+      "slug": "MCA_MTECH_ECE_IT_CS_EE",
+      "type": "subject"
+    },
+    {
+      "name": "SOF/ Olympiad / KVPY / Sainik School /RMS",
+      "price": 10000,
+      "slug": "SOF_OLYMPIAD_KVPY_SAINIK_SCHOOL_RMS",
+      "type": "subject"
+    }
+  ],
+  "training": [
+    {
+      "name": "Machine learning",
+      "price": 12000,
+      "slug": "training_____MACHINE____LEARNING"
+    },
+    {
+      "name": "Deep Learning",
+      "price": 12000,
+      "slug": "training_____DEEP____LEARNING"
+    },
+    {
+      "name": "Data Science",
+      "price": 12000,
+      "slug": "training_____DATA____SCIENCE"
+    },
+    {
+      "name": "Computer Vision",
+      "price": 12000,
+      "slug": "training_____COMPUTER____VISION"
+    },
+    {
+      "name": "Internet of Things",
+      "price": 15000,
+      "slug": "training_____INTERNET___OF___THINGS"
+    }
+  ],
+  "Project": [
+    {
+      "name": "B.Tech",
+      "price": 5000,
+      "slug": "PROJECT______B_TECH"
+    },
+    {
+      "name": "B.Tech with project Report",
+      "price": 7000,
+      "slug": "PROJECT______B_TECH____WITH____REPORT"
+    },
+    {
+      "name": "M.Tech",
+      "price": 20000,
+      "slug": "PROJECT______M_TECH"
+    },
+    {
+      "name": "M.Tech with dissertation and paper writing",
+      "price": 30000,
+      "slug": "PROJECT______M_TECH____WITH____PAPER"
+    },
+    {
+      "name": "PhD with paper writing",
+      "price": 50000,
+      "slug": "PROJECT______P_HED____PAPER"
+
+    }
+  ]
+}

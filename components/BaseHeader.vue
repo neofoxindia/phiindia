@@ -60,7 +60,9 @@
                 </NuxtLink>
               </li>
               <li>
-                <a href="about.html" title="">About</a>
+                <NuxtLink :to="{name: 'about'}" title="">
+                  About
+                </NuxtLink>
               </li>
               <li>
                 <a href="classes.html" title="">Classes</a>

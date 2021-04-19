@@ -65,7 +65,8 @@
     <div class="container">
       <div class="mdp-map">
         <iframe
-          src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=1%20Grafton%20Street,%20Dublin,%20Ireland+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+          class="shadow-sm"
+          src="https://maps.google.com/maps?q=PHI%20Institute,%20Sector%2017%20Road,%20Sector%2017,%20Pratap%20Nagar,%20Jaipur,%20Rajasthan&t=&z=15&ie=UTF8&iwloc=&output=embed"
         />
       </div><!--mdp-map end-->
       <div class="mdp-contact">
@@ -82,5 +83,7 @@ export default {
 </script>
 
 <style scoped>
-
+iframe {
+  border-radius: 2px;
+}
 </style>

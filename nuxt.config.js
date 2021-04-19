@@ -68,7 +68,6 @@ export default {
     '@nuxtjs/eslint-module'
   ],
   modules: [
-    'bootstrap-vue/nuxt',
     '@nuxtjs/axios'
   ],
   axios: {},

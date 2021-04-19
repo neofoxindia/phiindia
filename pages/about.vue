@@ -5,11 +5,11 @@
         <div class="abt-page-row">
           <div class="row align-items-center">
             <div class="col-12 p-0 m-0">
-              <h1 class="display-1 text-center font-weight-bold">
-                <span>We</span>
-                <span>are</span>
-                <span>Phi</span>
-                <span>Experts</span>
+              <h1 class="display-1 text-center font-weight-bold" style="font-size: calc(4vw + 40px)">
+                <span class="text-primary">We</span>
+                <span class="text-secondary">are</span>
+                <span class="text-secondary">Phi</span>
+                <span class="text-primary">Experts</span>
               </h1>
             </div>
             <div class="col-12">
@@ -20,31 +20,33 @@
                 <h2 class="text-center">
                   Welcome to <span>PHI</span> India
                 </h2>
-                <p class="mw-100">
+                <p
+                  class="mw-100"
+                  style="font-size: 1.3em;line-height: 1.3;font-family: Poppins, sans-serif"
+                >
                   PHI India is a scientific and academic research Organisation established in 2020
                   with a goal of creating a generation of highly skilled and technically strong in
                   future technologies like artificial intelligence, internet of things, data science,
                   augmented reality, computer vision, robotics, automation, deep learning, and antenna
                   & microwave technology.
-                  <br>
                 </p>
-                <p class="mw-100">
+                <p
+                  class="mw-100"
+                  style="font-size: 1.3em;line-height: 1.5;font-family: Poppins, sans-serif"
+                >
                   We provide the industrial Consultants in the above fields
                   and also so guide the students of classes six to twelve in their academic,
                   preparation for JEE exam. Selection of course and colleges. We prepare your kid from
                   6-18 years for this new coding world. They learn fundamentals of coding--logic,
                   structure, sequence, and algorithmic thinking--to generate creative outcomes.
                 </p>
-                <a href="classes.html" title="" class="btn-default">Classes <i
-                  class="fa fa-long-arrow-alt-right"
-                /></a>
               </div><!--section-title end-->
             </div>
           </div>
           <div class="row align-items-center">
             <div class="col-lg-6 col-md-6">
               <div class="avt-img">
-                <img src="https://via.placeholder.com/575x592" alt="">
+                <img src="/images/mission.svg" alt="Mission" height="2667" width="3037" class="w-100">
               </div><!--avt-img end-->
             </div>
             <div class="col-lg-6 col-md-6">
@@ -344,7 +346,3 @@ export default {
   name: 'About'
 }
 </script>
-
-<style scoped>
-
-</style>
